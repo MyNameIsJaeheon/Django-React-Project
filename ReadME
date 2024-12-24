@@ -1,0 +1,16 @@
+# Create a virtual environment:
+#    'python3 -m venv env'
+# Activate the virtual environment:
+#    'source env/bin/activate'
+
+# install all dependencies (requirements.txt)
+# pip install -r requirements.txt
+
+# create new Django project
+# "django-admin startproject backend"
+
+# in /backend/myapp/ we write a lot of custom Django code - to organize logic out, authentication
+# "python3 manage.py startapp myapp"
+
+# "python3 manage.py migrate" will connect to the remote database, create the tables, and apply the migrations
+# "python3 manage.py runserver" to run the application
