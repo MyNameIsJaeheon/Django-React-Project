@@ -5,6 +5,7 @@ Create a virtual environment:
 Activate the virtual environment:
 'source env/bin/activate'
 
+
 install all dependencies (requirements.txt)
 pip install -r requirements.txt
 
